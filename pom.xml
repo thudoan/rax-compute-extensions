@@ -7,7 +7,7 @@
     <name>Rackspace Compute Extensions</name>
     <version>1.0.0-SNAPSHOT</version>
     <properties>
-        <doctools.version>1.0.8</doctools.version>
+        <doctools.version>1.0.11-SNAPSHOT</doctools.version>
     </properties>
 
     <dependencies>
@@ -123,9 +123,11 @@
                                     <fileset dir="target/docbkx/pdf/rax-bak">
                                         <include name="**/*.pdf"/>
                                     </fileset>
+                                    <!--
                                     <fileset dir="src/docbkx/rax-bak/samples/">
                                         <include name="ext_query.xml"/>
                                     </fileset>
+                                    -->
                         </copy>
                             </postProcess>
                         </configuration>
@@ -148,9 +150,11 @@
                                     <fileset dir="target/docbkx/pdf/rax-dcf">
                                         <include name="**/*.pdf"/>
                                     </fileset>
+                                    <!--
                                     <fileset dir="src/docbkx/rax-dcf/samples/">
                                         <include name="ext_query.xml"/>
                                     </fileset>
+                                    -->
                                 </copy>
                             </postProcess>
                         </configuration>
@@ -173,9 +177,11 @@
                                     <fileset dir="target/docbkx/pdf/rax-rgn">
                                         <include name="**/*.pdf"/>
                                     </fileset>
+                                    <!--
                                     <fileset dir="src/docbkx/rax-rgn/samples/">
                                         <include name="ext_query.xml"/>
                                     </fileset>
+                                    -->
                                 </copy>
                             </postProcess>
                         </configuration>
