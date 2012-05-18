@@ -217,15 +217,16 @@
       </variablelist>
       <?hard-pagebreak?>
       <example>
-          <title>Extension Query Response: XML</title>
+          <title>Blah Blah Extension Query Response: XML</title>
           <programlisting language="xml">
+
 <?db-font-size 95% ?><xi:include href="samples/ext_query.xml" parse="text"/>
           </programlisting>
       </example>
       <?hard-pagebreak?>
       <example>
-          <title>Extension Query Response: JSON</title>
-          <programlisting language="javascript">
+          <title>Blah Blah Extension Query Response: JSON</title>
+          <programlisting language="json">
 <?db-font-size 95% ?><xi:include href="samples/ext_query.json" parse="text"/>
           </programlisting>
       </example>
@@ -297,7 +298,7 @@
               <?hard-pagebreak?>
               <example xml:id="jsonserver">
                   <title>Server Detail Response: JSON</title>
-                  <programlisting language="javascript"><?db-font-size 90%?><xi:include href="samples/dcf-server.json" parse="text"/></programlisting>
+                  <programlisting language="json"><?db-font-size 90%?><xi:include href="samples/dcf-server.json" parse="text"/></programlisting>
               </example>
               <?hard-pagebreak?>
               <example xml:id="xmlimage">
@@ -307,7 +308,7 @@
               <?hard-pagebreak?>
               <example xml:id="jsonimage">
                   <title>Image Detail Response: JSON</title>
-                  <programlisting language="javascript"><?db-font-size 90%?><xi:include href="samples/dcf-image.json" parse="text"/></programlisting>
+                  <programlisting language="json"><?db-font-size 90%?><xi:include href="samples/dcf-image.json" parse="text"/></programlisting>
               </example>
           </section>
           <?hard-pagebreak?>
@@ -337,7 +338,7 @@
               </example>
               <example xml:id="jsonservercreate">
                   <title>Server Create Request With DiskConfig: JSON</title>
-                  <programlisting language="javascript"><xi:include href="samples/server-post-req.json" parse="text"/></programlisting>
+                  <programlisting language="json"><xi:include href="samples/server-post-req.json" parse="text"/></programlisting>
               </example>
               <para>
                   In this example, the server is created with a
@@ -377,7 +378,7 @@
               </example>
               <example xml:id="jsonserverrebuild">
                   <title>Action Rebuild With DiskConfig: JSON</title>
-                  <programlisting language="javascript"><xi:include href="samples/rebuild_all.json" parse="text"/></programlisting>
+                  <programlisting language="json"><xi:include href="samples/rebuild_all.json" parse="text"/></programlisting>
               </example>
           </section>
           <section>
@@ -399,7 +400,7 @@
               </example>
               <example xml:id="jsonserverresize">
                   <title>Action Resize With DiskConfig: JSON</title>
-                  <programlisting language="javascript"><xi:include href="samples/resize.json" parse="text"/></programlisting>
+                  <programlisting language="json"><xi:include href="samples/resize.json" parse="text"/></programlisting>
               </example>
           </section>
       </section>

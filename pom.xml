@@ -7,7 +7,7 @@
     <name>Rackspace Compute Extensions</name>
     <version>1.0.0-SNAPSHOT</version>
     <properties>
-        <doctools.version>1.0.11-SNAPSHOT</doctools.version>
+        <doctools.version>1.1.1-SNAPSHOT</doctools.version>
     </properties>
 
     <dependencies>
@@ -75,12 +75,13 @@
                         <phase>generate-sources</phase>
                     </execution>
                 </executions>
+               
                 <configuration>
                     <transformationSets>
                         <transformationSet>
-                            <dir>src/docbkx/rax-bak</dir>
+                            <dir>src/docbkx/rax-dcf</dir>
                             <includes>
-                                <include>rax-bak.wadl</include>
+                                <include>rax-dcf.wadl</include>
                             </includes>
                             <stylesheet>${project.build.directory}/generated-resources/cloud/normalizeWadl/normalizeWadl.xsl</stylesheet>
                             <parameters>
@@ -92,6 +93,7 @@
                         </transformationSet>
                     </transformationSets>
                 </configuration>
+                
                 <dependencies>
                     <dependency>
                         <groupId>net.sf.saxon</groupId>
@@ -105,6 +107,7 @@
                 <artifactId>clouddocs-maven-plugin</artifactId>
                 <version>${doctools.version}</version>
                 <executions>
+                    <!--
                     <execution>
                         <id>rax-bak</id>
                         <goals>
@@ -123,15 +126,17 @@
                                     <fileset dir="target/docbkx/pdf/rax-bak">
                                         <include name="**/*.pdf"/>
                                     </fileset>
-                                    <!--
+                                 
                                     <fileset dir="src/docbkx/rax-bak/samples/">
                                         <include name="ext_query.xml"/>
                                     </fileset>
-                                    -->
+                                 
+                    
                         </copy>
                             </postProcess>
                         </configuration>
                     </execution>
+                    -->
                     <execution>
                         <id>rax-dcf</id>
                         <goals>
